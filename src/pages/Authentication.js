@@ -43,9 +43,9 @@ const Authentication = () => {
         let url;
         if (isRegistered) {
             console.log("IN")
-            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCqKi0N4fapTLqXMyJJ4SaK7Olp4wsKLSc'
+            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCDOC5dvyKngKD8x85HSeEIrxK6mtkhArs'
         } else {
-            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCqKi0N4fapTLqXMyJJ4SaK7Olp4wsKLSc'
+            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCDOC5dvyKngKD8x85HSeEIrxK6mtkhArs'
 
         }
         fetch(url,
