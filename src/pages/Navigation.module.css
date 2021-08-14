@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navBar {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 5px grey;
+    font-family: 'BenchNine', sans-serif;
+    color: rgb(23, 23, 100);
+}
+
+.actions {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navBar .navTitle {
+    margin: 35px 35px 35px 20px;
+    font-size: 25px;
+    word-spacing: 10px;
+    background-color: rgb(23, 23, 100);
+    color: white;
+    padding: 10px 7px 10px 7px;
+    border-radius: 5px;
+    font-family: 'BenchNine', sans-serif;
+    
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 35px;
+}
+
+.navBar ul li {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    color: rgb(23, 23, 100);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(23, 23, 100);
+}
+
+.navBar ul li:hover {
+    box-shadow: 0px 5px 5px grey;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 2px solid rgb(23, 23, 100);
+
+}
+
+.logoutBtn {
+    width: 50%;
+    margin: 10px 20px 10px 20px;
+
+    padding: 5px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px grey;
+    background-color: white;
+    border: none;
+}
+
+.logoutBtn:active {
+    transform: translate(1px, -2px)
+}
+
+.logoutBtn:hover {
+    background-color: rgb(23, 23, 100);
+    color: white;
+    cursor: pointer;
+}
+
+.imageWrapper {
+    height: 90%;
+}
+
+
+ .imageWrapper  img{
+    height: inherit;
+    
+    border: 1px solid rgb(22, 30, 58);
+   
+}
+
+.logoWrapper{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px grey;
+}
+.logoWrapper p{
+   position: absolute;
+   top:57px;
+   font-size: 8px;
+   background-color: rgb(23, 23, 100);
+   color: white;
+   border:1px solid rgb(23, 23, 100);
+}
+@media screen and (max-width: 830px) {
+    .navBar {
+        height: 100px;
+    }
+
+    .navBar h1 {
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .logoWrapper {
+      display: none;
+     }
+}
+
+@media screen and (max-width: 675px) {
+    .navBar .navTitle {
+        margin: 35px;
+        font-size: 20px;
+        text-align: center;
+        
+        
+    }
+}
+
+
+@media screen and (max-width: 675px) {
+
+    .navBar h1 {
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navBar ul {
+        display: block;
+        margin: 10px;
+    }
+
+    .navBar ul li {
+        margin: 5px;
+        padding: 0 5px 0 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navBar .navTitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navBar .navTitle {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .logoutBtn {
+        margin: 0px 40px 10px 10px;
+    }
+
+    .actions {
+        display: block;
+    }
+
+    @media screen and (max-width: 285px) {
+        .navBar .navTitle {
+            font-size: 15px;
+        }
+    }
+}

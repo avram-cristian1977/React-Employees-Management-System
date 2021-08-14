@@ -1,0 +1,60 @@
+.modalWrapper{
+    width: 30%;
+    height: 130px;
+    background-color:rgb(7, 68, 48);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+ 
+    
+}
+
+.modalContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top:280px;
+    z-index: 10;
+    padding: 0;
+}
+.modalDialog{
+   
+    font-size: 2vw;
+    text-align: center;
+    
+
+}
+
+
+
+.modalAction{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.modalAction button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border:none;
+    width: 4vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5vw;
+    
+   }
+
+   .modalAction button:active{
+    transform: translate(1px, -2px)
+   }
+
+   .modalAction button:hover{
+    background-color: rgb(109, 109, 161);
+color: white;
+    cursor: pointer;
+   }
+
+

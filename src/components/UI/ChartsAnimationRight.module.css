@@ -1,0 +1,98 @@
+
+.bars{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'BenchNine', sans-serif;
+    letter-spacing: 2px;
+}
+.skill{
+    transform: rotate(90deg);
+    color: white;
+    letter-spacing: 2px;
+    margin: 1.3vw;
+  }
+
+.bars span p{
+    color: white;
+    transform: rotate(90deg);
+    
+}
+
+
+.bars  div:hover{
+    height: 300px;
+}
+
+
+.brownBar{
+    height: 220px;
+    width: 50px;
+    background-color: rgb(199, 66, 33);
+    transition: height 2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(180deg); 
+}
+
+.blueBar{
+    height: 190px;
+    width: 50px;
+    background-color: rgb(6, 39, 61);
+    transition: height 2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(180deg);
+   
+}
+.orangeBar{
+    height: 280px;
+    width: 50px;
+    background-color: rgb(187, 152, 37);
+    transition: height 2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+.yellowBar {
+    height: 150px;
+    width: 50px;
+    background-color: rgb(215, 218, 81);
+    transition: height 2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+.greenBar{
+    height: 160px;
+    width: 50px;
+    background-color: rgb(34, 80, 7);
+    transition: height 2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+
+
+
+@media screen and (max-width: 970px) {
+ .brownBar, .greenBar, .blueBar, .yellowBar, .orangeBar{
+    width: 30px;
+ }
+}
+
+
+@media screen and (max-width: 670px) {
+    .brownBar, .greenBar, .blueBar, .yellowBar, .orangeBar{
+       width: 20px;
+       font-size: 10px;
+    }
+   }
+   @media screen and (max-width: 570px) {
+    .bars{
+display: none;
+    }
+    
+   }

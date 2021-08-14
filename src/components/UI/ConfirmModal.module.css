@@ -1,0 +1,64 @@
+.modalWrapper {
+    width: 30%;
+    height: 130px;
+    background-color: rgb(23, 23, 100);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    z-index: 10;
+    padding: 0;
+}
+
+.modalDialog {
+    font-size: 2vw;
+    background-color: rgb(109, 109, 161);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'BenchNine', sans-serif;
+    width: 50%;
+    margin: auto;
+    border:1px solid white
+   
+}
+
+.modalAction {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modalAction button {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    width: 4vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5vw;
+    border:2px solid rgb(21, 10, 71);
+    border-radius: 3px;
+}
+
+.modalAction button:active {
+    transform: translate(1px, -2px)
+}
+
+.modalAction button:hover {
+    background-color: rgb(109, 109, 161);
+    color: white;
+    cursor: pointer;
+}

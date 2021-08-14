@@ -1,0 +1,139 @@
+.formWrapper {
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    color: rgb(23, 23, 100);
+    margin-top: 100px;
+    box-shadow: 0px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailAddressField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+}
+
+.emailAddressField label {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5vw;
+    
+    text-align: center;
+
+}
+
+.emailAddressField input {
+    width: 70%;
+    border: 1px solid black;
+    height: 30px;
+    padding-left: 10px;
+}
+.passwordField label {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5vw;
+
+}
+
+.passwordField input {
+    border: 1px solid black;
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.passwordField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+}
+
+
+
+.panelTitle {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 2vw;
+    color: rgb(23, 23, 100);
+    font-family: 'BenchNine', sans-serif;
+}
+
+.authOption,
+.authError {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 5px;
+    font-family: 'BenchNine', sans-serif;
+
+}
+
+
+.authOption:hover {
+    cursor: pointer;
+
+}
+
+.authError {
+    color: red
+}
+
+.authBtn {
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5vw;
+    box-shadow: 0px 5px 5px grey;
+    background-color: white;
+    border: none;
+}
+
+.authBtn:active {
+    transform: translate(1px, -2px)
+}
+
+.authBtn:hover {
+    background-color: rgb(23, 23, 100);
+    ;
+    color: white;
+    cursor: pointer;
+}
+
+.spinnerWrapper {
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .authChoice {
+        font-size: 2vw;
+    }
+
+    .emailAddressField label {
+        font-size: 2vw;
+    }
+
+
+    .passwordField label {
+        font-size: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .authBtn {
+        font-size: 2vw;
+        width: 30%;
+    }
+
+    .formWrapper {
+        width: 50%;
+    }
+}

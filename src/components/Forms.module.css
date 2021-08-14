@@ -1,0 +1,51 @@
+
+    .column{
+     
+        width: 100%;
+        margin: 20px;
+    }
+
+    
+    
+    .title{
+        text-align: center;
+        font-family:  'BenchNine', sans-serif;
+        font-size: 3vw;
+        color: rgb(23, 23, 100);
+    }
+    
+    .dividerContainer{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+    }
+    
+    .rating{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .subtitle{
+        display: flex;
+        justify-content:center;
+        margin-bottom: 10px;
+    }
+    
+    .subtitle h4{
+        background-color: rgb(23, 23, 100);
+        color: white;
+        border-radius: 3px;
+        padding: 3px 7px 3px 7px;
+        
+    }
+    
+    
+ 
+
+
+
+
+
