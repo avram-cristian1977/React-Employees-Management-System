@@ -1,4 +1,3 @@
-
 import Footer from './components/UI/Footer'
 import Navigation from './pages/Navigation';
 import Homepage from './pages/Homepage'
@@ -41,7 +40,6 @@ const App = () => {
         <Footer/>
        
   </>
-
 }
 
 export default App;
